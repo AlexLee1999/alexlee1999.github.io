@@ -317,7 +317,7 @@ iframe {
 }
 /* Git section */
 .ghfeed {
-  height: 600px;
+  height: 300px;
 }
 .ghfeed,
 .ghfeed *,
@@ -374,35 +374,7 @@ iframe {
   height: 15px;
   background: #66cb8c;
 }
-/* Testimonials section */
-.testimonials .item {
-  margin-bottom: 30px;
-}
-.testimonials .item:last-child {
-  margin-bottom: 0;
-}
-.testimonials .item .quote {
-  color: #666666;
-  font-size: 16px;
-  border-left-color: #9fdeb7;
-  margin-bottom: 15px;
-}
-.testimonials .item .quote .fa {
-  color: #79d19a;
-  margin-right: 15px;
-}
-.testimonials .item .source {
-  font-size: 14px;
-  padding-left: 30px;
-  font-weight: 500;
-}
-.testimonials .item .source .name {
-  color: #939ea9;
-  font-weight: 600;
-}
-.testimonials .item .source .title {
-  color: #999999;
-}
+
 /* Education section */
 .education .item {
   margin-bottom: 30px;
@@ -441,23 +413,7 @@ iframe {
 .languages .item .fa {
   color: #79d19a;
 }
-/* Blog Section */
-.blog .item {
-  margin-bottom: 30px;
-}
-.blog .item .title {
-  font-size: 18px;
-  line-height: 1.3;
-}
-.blog .item .title a {
-  color: #778492;
-}
-.blog .item .title a:hover {
-  color: #5f6b77;
-}
-.blog .item:last-child {
-  margin-bottom: 0;
-}
+
 /* List section */
 .list ul li {
   margin-bottom: 10px;
@@ -471,39 +427,8 @@ iframe {
 .list ul li a:hover {
   color: #49515a;
 }
-/* Credits */
-.credits ul li {
-  margin-bottom: 10px;
-}
-.credits ul li .fa {
-  margin-right: 5px;
-}
-.credits ul li a {
-  color: #778492;
-}
-.credits ul li a:hover {
-  color: #49515a;
-}
-.credits .btn {
-  margin-bottom: 15px;
-}
-/* ======= Footer ======= */
-.footer {
-  background: #32383e;
-  color: #fff;
-  padding: 10px 0;
-}
-.footer .copyright {
-  line-height: 1.6;
-  color: #a1aab4;
-  font-size: 14px;
-}
-.footer a {
-  color: #fff;
-}
-.footer .fa-heart {
-  color: #fb866a;
-}
+
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header {
