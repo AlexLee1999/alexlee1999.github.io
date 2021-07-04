@@ -109,19 +109,20 @@
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
+
                 <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
                 <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
                 <section class="github section">
                     <div class="section-inner">
                         <h2 class="heading">My GitHub</h2>
                         <div id="ghfeed" class="ghfeed">
-                            <div class="calendar">
+                            <div class="calendar" style="width: auto;">
                                 <!-- Loading stuff -->
                                 Loading the data just for you.
                             </div>
                             
                             <script>
-                                new GitHubCalendar(".calendar", "AlexLee1999");
+                                new GitHubCalendar(".calendar", "AlexLee1999", { responsive: true });
                             </script>
                             
                         </div><!--//ghfeed-->
@@ -196,7 +197,6 @@
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
                                 
-                                <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p> 
                             </div>              
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
