@@ -302,7 +302,7 @@ iframe {
   line-height: 1.5;
 }
 .experience .item .title .place {
-  color: #999999;
+  color: #000000;
   font-weight: normal;
 }
 .experience .item .title .place a {
@@ -314,6 +314,7 @@ iframe {
 .experience .item .title .year {
   color: #999999;
   font-weight: normal;
+  float: right;
 }
 /* Git section */
 .ghfeed {
