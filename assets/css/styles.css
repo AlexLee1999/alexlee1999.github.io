@@ -285,6 +285,16 @@ iframe {
   margin-bottom: 5px;
   line-height: 1.5;
 }
+.projects .item .summary {
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+}
+.projects .item .link {
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+}
 .projects .item .title a {
   color: #778492;
 }
@@ -305,14 +315,19 @@ iframe {
   color: #000000;
   font-weight: normal;
 }
+.experience .item  .summary {
+  color: #000000;
+  font-weight: normal;
+  font-size: 14px;
+}
 .experience .item .title .place a {
-  color: #999999;
+  color: #000000;
 }
 .experience .item .title .place a:hover {
   color: #666666;
 }
 .experience .item .title .year {
-  color: #999999;
+  color: #000000;
   font-weight: normal;
   float: right;
 }
